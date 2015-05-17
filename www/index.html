@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- TODO:
+        image transitions -->
+  <meta charset="utf-8">
+  <meta name="description" content="Udacity Front-end Web Developer Project 1">
+  <meta name="author" content="Alistair Reynolds">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta id="theme-color" name="theme-color" content="#459acc">
+  <base target="_blank">
+  <title>Alistair Reynolds' Portfolio</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="http://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <header>
+        <div class="col-md-3 col-xs-4 logo">
+          <img class="img-responsive" src="img/logo.svg" alt="Alistair Reynolds Logo" width="100">
+        </div>
+        <div class="col-md-9 col-xs-8 header-text">
+          <h1>Alistair Reynolds</h1>
+          <p>Front-end Ninja in traning</p>
+        </div>
+      </header>
+    </div>
+
+    <div class="separator"></div>
+
+    <div class="row banner">
+      <div class="col-md-12">
+        <picture>
+          <source media="(min-width: 1200px)" srcset="img/sydney-1200.jpg 2x, img/sydney-800.jpg">
+          <source srcset="img/sydney-500.jpg 2x, img/sydney-300.jpg">
+          <img c;ass="img-responsive" src="sydney-300.jpg" alt="A photo from Sydney">
+        </picture>
+      </div>
+    </div>
+
+    <h2>Featured Work</h2>
+
+    <div class="row">
+      <div class="col-md-4">
+        <figure>
+          <picture>
+            <source media="(min-width: 1200px)" srcset="img/lotus-1200.jpg 2x, img/lotus-800.jpg">
+            <source srcset="img/lotus-500.jpg 2x, img/lotus-300.jpg">
+            <img class="img-responsive center" src="lotus-300.jpg" alt="Some lotus plants">
+          </picture>
+          <figcaption>Lotus Plants in Nantong, China</figcaption>
+        </figure>
+      </div>
+      <div class="col-md-4">
+        <figure>
+          <picture>
+            <source media="(min-width: 1200px)" srcset="img/games-1200.jpg 2x, img/games-800.jpg">
+            <source srcset="img/games-500.jpg 2x, img/games-300.jpg">
+            <img class="img-responsive center" src="games-300.jpg" alt="A big stack of DVD cases">
+          </picture>
+          <figcaption>Games</figcaption>
+        </figure>
+      </div>
+      <div class="col-md-4">
+        <figure>
+          <picture>
+            <source media="(min-width: 1200px)" srcset="img/melbourne-1200.jpg 2x, img/melbourne-800.jpg">
+            <source srcset="img/melbourne-500.jpg 2x, img/melbourne-300.jpg">
+            <img class="img-responsive center" src="melbourne-300.jpg" alt="An photo taken showing Melbourne CBD">
+          </picture>
+          <figcaption>Melbourne's CBD</figcaption>
+        </figure>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
